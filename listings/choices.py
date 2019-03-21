@@ -19,10 +19,10 @@ price_choices = {
 }
 
 state_choices = {
-        'BV': 'Bhimavaram',
-        'VV': 'Viravasaram',
-        'PK': 'Palakollu',
-        'UN': 'Undi',
-        'GP': 'Ganapavaram',
-        'SD': 'Siva_Devuni_Chikala',
+        'AP': 'Andhra',
+        'TS': 'Telangana',
+        'OR': 'Orissa',
+        'TN': 'Tamilnadu',
+        'KA': 'Karnataka',
+        'KE': 'Kerala',
 }

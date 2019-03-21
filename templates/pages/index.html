@@ -11,11 +11,12 @@
     <div class="home-search p-5">
       <div class="overlay p-5">
         <h1 class="display-4 mb-4">
-          Property Searching Just Got So Easy
+          <!-- Property Searching Just Got So Easy -->
+          Website under construction!
         </h1>
-        <p class="lead">Here in Vishwanatha Constructions we consider the need and greed of the middle class families
+        <p class="lead">Here in AB Real Estate we consider the need and greed of the middle class families
           and plan the construction of the houses, Our projects are well designed and precisely executed by the best
-          engineers in the domain.</p>
+          engineers in the industry.</p>
         <div class="search">
           <form action="{% url 'search' %}">
             <!-- Form Row 1 -->
@@ -33,7 +34,7 @@
               <div class="col-md-4 mb-3">
                 <label class="sr-only">State</label>
                 <select name="state" class="form-control">
-                  <option selected="true" disabled="disabled">Select: Mandal/Town (All)</option>
+                  <option selected="true" disabled="disabled">State (All)</option>
                   {% for key,value in state_choices.items %}
                   <option value="{{ key }}">{{ value }}</option>
                   {% endfor %}

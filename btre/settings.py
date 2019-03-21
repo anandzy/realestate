@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'btredb',
-        'USER': 'projecto',
-        'PASSWORD': '123456',
+        'NAME': 'btre_prod',
+        'USER': 'dbadmin',
+        'PASSWORD': 'abc123',
         'HOST': 'localhost'
     }
 }
